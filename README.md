@@ -12,6 +12,6 @@
 
 * Go to a youtube video and do the following in the console :
 	
-	player.innerHTML = "<video width='640' height='360' id='my-video' class='video-js' controls preload='auto' width='640' height='264' data-setup='{ 'autoplay': true}'><source src='http://0.0.0.0:8000/MYVIDEO.mp4/MY_VIDEO.mp4' type='video/mp4'></video>";
+	`player.innerHTML = "<video width='640' height='360' id='my-video' class='video-js' controls preload='auto' width='640' height='264' data-setup='{ 'autoplay': true}'><source src='http://0.0.0.0:8000/MYVIDEO.mp4/MY_VIDEO.mp4' type='video/mp4'></video>";`
 
 * This would run the video in place of the youtube video.
